@@ -16,6 +16,7 @@ import { Component, OnInit } from '@angular/core';
   <a class="navbar-item" routerLink="/">Home</a>
   <a class="navbar-item" href="../assets/pdf/Tian-WP-layout-v1.pdf">Whitepaper</a>
   <a class="navbar-item"> Roadmap </a>
+  <a class="navbar-item" routerLink="/roadmap">Roadmap</a>
   <a class="navbar-item" routerLink="/about">About</a>
   <a class="navbar-item" routerLink="/contact">Contact</a>
 </div>
