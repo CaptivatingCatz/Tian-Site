@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { SocialsComponent } from './socials/socials.component';
 import { CountdownComponent } from './countdown/countdown.component';
 import { TTeamComponent } from './t-team/t-team.component';
+import { ExploreTianComponent } from './explore-tian/explore-tian.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { TTeamComponent } from './t-team/t-team.component';
     FooterComponent,
     SocialsComponent,
     CountdownComponent,
-    TTeamComponent
+    TTeamComponent,
+    ExploreTianComponent
   ],
   imports: [
     BrowserModule,
