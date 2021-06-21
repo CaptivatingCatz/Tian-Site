@@ -15,6 +15,8 @@ import { Component } from '@angular/core';
      <app-countdown></app-countdown>
      <!-- T-Team Component -->
      <app-t-team></app-t-team>
+     <!-- Explore Tian -->
+     <app-explore-tian></app-explore-tian>
     <!-- Socials -->
     <app-socials></app-socials>
     <!-- Footer Component -->
