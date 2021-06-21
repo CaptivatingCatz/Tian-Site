@@ -21,7 +21,7 @@ import { Component } from '@angular/core';
     <app-socials></app-socials>
     <!-- Footer Component -->
     <app-footer></app-footer>
-
+    <app-footer></app-footer>
   `,
   styles: []
 })
