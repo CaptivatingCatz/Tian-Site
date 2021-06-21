@@ -22,7 +22,6 @@ import { Component } from '@angular/core';
     <!-- Footer Component -->
     <app-footer></app-footer>
 
-    <app-footer></app-footer>
   `,
   styles: []
 })
