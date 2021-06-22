@@ -16,7 +16,7 @@ import { Component, OnInit } from '@angular/core';
  <div class="columns">
   <div class="column">
     <p class="move">Price:</p>
-    <p class="move">M/C:</p>
+    <p class="move">Market Cap:</p>
     <p class="move">Target:</p>
   </div>
   <div class="column">
@@ -62,12 +62,13 @@ import { Component, OnInit } from '@angular/core';
     }
     .move {
       margin-left: 40%;
-      margin-top: 10px;
-      padding-bottom: 45px;
+      margin-top: 12px;
+      padding-bottom: 50px;
       font-size: 1.35em;
     }
     .adjust{
       margin-left: -140px;
+      font-size: 1.2em;
     }
     .tian-top{
       font-size: 3em;

@@ -12,6 +12,7 @@ import { CountdownComponent } from './countdown/countdown.component';
 import { TTeamComponent } from './t-team/t-team.component';
 import { ExploreTianComponent } from './explore-tian/explore-tian.component';
 import { PriceTickerComponent } from './price-ticker/price-ticker.component';
+import { MissionStatementComponent } from './mission-statement/mission-statement.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PriceTickerComponent } from './price-ticker/price-ticker.component';
     CountdownComponent,
     TTeamComponent,
     ExploreTianComponent,
-    PriceTickerComponent
+    PriceTickerComponent,
+    MissionStatementComponent
   ],
   imports: [
     BrowserModule,
