@@ -5,15 +5,37 @@ import { Component, OnInit } from '@angular/core';
   template: `
   <section class="hero is-small is-info m-auto">
   <div class="hero-body m-auto">
-  <p class="title is-1 is-spaced">Tian</p>
-  <figure class="image is-5by4">
-    <img src="/assets/img/tianToon.png">
-  </figure>
-  <p class="subtitle is-3">Tian is an open source Digital Token</p>
-  <div class="buttons">
+  <div class="columns">
+  <div class="column is-half">
+  <br>
+  <br>
+  <p class="title tian-top">Fair. Elegant. Transparent.</p>
+  <p class="subtitle">Tian is a new type of money, a formulaic stablecoin. <br> The price is un-pegged but stablized based on trading volume.</p>
+  <br>
+ <p class="title smaller"><u>Price Ticker</u></p>
+ <div class="columns">
+  <div class="column">
+    <p class="move">Price:</p>
+    <p class="move">M/C:</p>
+    <p class="move">Target:</p>
+  </div>
+  <div class="column">
+  <div class="box adjust">  $0.000 </div>       <!-- replace with variable -->
+  <div class="box adjust">  $0.00 </div><!-- replace with variable -->
+  <div class="box adjust">  $0.00 </div><!-- replace with variable -->
+  </div>
+</div>
+
+ <div class="buttons">
   <button class="button is-primary">Get Started</button>
   <button class="button is-link">Github</button>
-  
+</div>
+  </div>
+  <div class="column is-half">
+  <figure class="image is-hero">
+  <img class="is-hero" src="../../assets/img/tian-showcase.png">
+</figure>
+  </div>
 </div>
   </div>
 </section>
@@ -21,10 +43,34 @@ import { Component, OnInit } from '@angular/core';
   styles: [
     `
     .buttons{
-     margin-left: 30%;
+     margin-left: 55%;
     }
-    .title {
-      margin-left: 36%;
+    .m-auto{
+      margin: 0 !important;
+    }
+    p {
+      margin-left: 20%;
+    }
+    .is-hero{
+      margin-top: 30px;
+      margin-left: 15%;
+      max-height: 500px;
+      width: 500px;
+    }
+    .smaller {
+      font-size: 1.5em;
+    }
+    .move {
+      margin-left: 40%;
+      margin-top: 10px;
+      padding-bottom: 45px;
+      font-size: 1.35em;
+    }
+    .adjust{
+      margin-left: -140px;
+    }
+    .tian-top{
+      font-size: 3em;
     }
     `
   ]
