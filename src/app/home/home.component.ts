@@ -17,7 +17,7 @@ import { Component, OnInit } from '@angular/core';
   <div class="column">
     <p class="move">Price:</p>
     <p class="move">Market Cap:</p>
-    <p class="move">Target:</p>
+    <p class="move">Supply:</p>
   </div>
   <div class="column">
   <div class="box adjust">  $0.000 </div>       <!-- replace with variable -->
@@ -72,6 +72,9 @@ import { Component, OnInit } from '@angular/core';
     }
     .tian-top{
       font-size: 3em;
+    }
+    .title {
+      color: #FFBF00 !important;
     }
     `
   ]

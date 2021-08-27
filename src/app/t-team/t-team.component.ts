@@ -27,7 +27,7 @@ import { Component, OnInit } from '@angular/core';
     <div class="content">
     Catz is a Computer Scientist, Web Designer, content creator, musician and leader.
     Catz runs Chaotic Night Studios and CaptivatingCatz.com and has a passion for Music, Art, and NFT’s.
-    <p><br></p>
+    <p><br><br></p>
     <button class="button is-dark"><a href="https://www.captivatingcatz.com">CaptivatingCatz.com</a></button>
       <br>
     </div>
@@ -52,7 +52,7 @@ import { Component, OnInit } from '@angular/core';
     <div class="content">
     PlantBaby has a background in as an advertising agencey Art Director, is an
     avid Vegan, a believer in humanity, a giver of Good Energy
-    <p><br></p>
+    <p><br><br><br></p>
     <button class="button is-dark"><a href="#">Plant Baby</a></button>
       <br>
     </div>
@@ -77,7 +77,7 @@ import { Component, OnInit } from '@angular/core';
     <div class="content">
     Mercy is an IT
     expert and web developer and runs Aossome.com
-    <p><br></p>
+    <p><br><br><br><br></p>
     <button class="button is-dark"><a href="https://www.aossome.com">Aossome.com</a></button>
       <br>
     </div>
