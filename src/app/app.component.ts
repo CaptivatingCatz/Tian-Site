@@ -17,6 +17,8 @@ import { Component } from '@angular/core';
      <app-t-team></app-t-team>
      <!-- Explore Tian Unimplemented -->
      <app-explore-tian></app-explore-tian>
+      <!-- wu wei with Tian -->
+     <app-outro></app-outro>
     <!-- Socials -->
     <app-socials></app-socials>
     <!-- Footer Component -->

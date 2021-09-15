@@ -13,6 +13,7 @@ import { TTeamComponent } from './t-team/t-team.component';
 import { ExploreTianComponent } from './explore-tian/explore-tian.component';
 import { PriceTickerComponent } from './price-ticker/price-ticker.component';
 import { MissionStatementComponent } from './mission-statement/mission-statement.component';
+import { OutroComponent } from './outro/outro.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { MissionStatementComponent } from './mission-statement/mission-statement
     TTeamComponent,
     ExploreTianComponent,
     PriceTickerComponent,
-    MissionStatementComponent
+    MissionStatementComponent,
+    OutroComponent
   ],
   imports: [
     BrowserModule,

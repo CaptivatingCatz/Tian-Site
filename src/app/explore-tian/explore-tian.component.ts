@@ -19,8 +19,7 @@ import { Component, OnInit } from '@angular/core';
 </p>
       </div> <!-- end column -->
       <div class="column">
-        <p>words for testing</p>
-        <img class="glyps" src="">
+        <img class="glyps" src="../../assets/img/AchievingStability.png">
       </div> <!-- end column -->
       </div> <!-- end columns -->
   </div>
@@ -31,8 +30,7 @@ import { Component, OnInit } from '@angular/core';
 </p>
       </div> <!-- end column -->
       <div class="column">
-        <p>words for testing</p>
-        <img class="glyps" src="">
+        <img class="glyps" src="../../assets/img/Goverence.png">
       </div> <!-- end column -->
       </div> <!-- end columns -->
 </div>
@@ -43,8 +41,7 @@ import { Component, OnInit } from '@angular/core';
 </p>
       </div> <!-- end column -->
       <div class="column">
-        <p>words for testing</p>
-        <img class="glyps" src="">
+        <img class="glyps" src="../../assets/img/InitialDistribution.png">
       </div> <!-- end column -->
       </div> <!-- end columns --> 
 </div>
@@ -55,8 +52,8 @@ import { Component, OnInit } from '@angular/core';
 </p>
       </div> <!-- end column -->
       <div class="column">
-        <p>words for testing</p>
-        <img class="glyps" src="">
+        
+        <img class="glyps" src="../../assets/img/EliminatingEconomicRents.png">
       </div> <!-- end column -->
       </div> <!-- end columns -->
 </div>
@@ -67,8 +64,7 @@ import { Component, OnInit } from '@angular/core';
 </p>
       </div> <!-- end column -->
       <div class="column">
-        <p>words for testing</p>
-        <img class="glyps" src="">
+        <img class="glyps" src="../../assets/img/PreventingWhaleManipulation.png">
       </div> <!-- end column -->
       </div> <!-- end columns -->
 </div>
@@ -79,8 +75,7 @@ import { Component, OnInit } from '@angular/core';
 </p>
       </div> <!-- end column -->
       <div class="column">
-        <p>words for testing</p>
-        <img class="glyps" src="">
+        <img class="glyps" src="../../assets/img/TransactionFee.png">
       </div> <!-- end column -->
       </div> <!-- end columns -->
 </div>
@@ -91,8 +86,7 @@ import { Component, OnInit } from '@angular/core';
 Every month 44,468,237,170 tokens are minted via constant emission, in addition to new coins minted during every transaction.  We hit 1 Trillion tokens in 2 years after launch.  Ten trillion in 20 years, 100 trillion in 200 years, 1 quadrillion in 2000 years.  This means the best strategy for investing is making small monthly buys after new coins are released and thus the price is at a low point.</p>
       </div> <!-- end column -->
       <div class="column">
-        <p>words for testing</p>
-        <img class="glyps" src="">
+        <img class="glyps" src="../../assets/img/MintingNewCoins.png">
       </div> <!-- end column -->
       </div> <!-- end columns -->
 </div>
@@ -105,12 +99,17 @@ Every month 44,468,237,170 tokens are minted via constant emission, in addition 
     .list_container {
     direction: rtl;
     overflow:auto;
-    height: 250px;
-    width: 70vw;
+    height: 550px;
+    width: 100vw;
   }
   #boldTitle {
     font-size: 1.4em;
     color: amber !important;
+  }
+  
+  .glyps {
+    height: 300px;
+  width: auto;
   }
 
   #item_direction {
